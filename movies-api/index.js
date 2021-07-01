@@ -1,4 +1,5 @@
 const express = require('express');
+const helmet = require('helmet');
 const app = express();
 
 const { config } = require('./config/index');
@@ -10,6 +11,7 @@ const { logErrors, wrapErrors, errorHandler } = require('./utils/middlewares/err
 const notFoundHandler = require('./utils/middlewares/notFoundHandler');
 
 app.use(express.json());
+app.use(helmet());
 
 authApi(app);
 moviesApi(app);
