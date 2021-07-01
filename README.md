@@ -5,3 +5,14 @@ In this repository you'll find the practice for the Authentication with Passport
 In order to do so, we've used a previously project from the [course of backend with node.js](https://platzi.com/clases/backend-nodejs/). In the ***movies-api*** directory you can find the modifications we've done in order to implement authentication with passport. If you want to relate to the original project to compare the changes, go to: https://github.com/alexsc90/nodeJs-backend, so you can see what's been done from then. 
 
 On the other hand, in the ***ssr-server*** folder you can find the implementation of passport with different strategies, as well as the code needed to set the communication from server to server, once the ssr has been rendered. 
+
+## Technologies
+
+* [Node.js](https://nodejs.org/es/docs/)
+* [Express.js](https://expressjs.com/es/)
+* [MongoDB](https://docs.mongodb.com/)
+* [Passport.js](http://www.passportjs.org/docs/)
+* [JWT](https://jwt.io/introduction)
+
+*Don't* forget to place you in the root of the directory you want to try and run the command `npm install` to install all the dependencies. 
+
